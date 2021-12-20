@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SPUserCenterUI_Example' do
+  pod 'SPUserCenterUI', :path => '../'
+
+  target 'SPUserCenterUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
