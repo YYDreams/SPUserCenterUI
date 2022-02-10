@@ -15,6 +15,12 @@ import Foundation
         let controller = SPUserCenterViewController()
         return controller
     }
+    @objc public func Action_developerViewController(_ param: NSDictionary) -> UIViewController {
+
+        let controller = SPDeveloperViewController()
+        return controller
+    }
+    
     
 }
 

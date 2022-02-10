@@ -120,10 +120,7 @@ class SPDeveloperViewController: BaseTableViewController {
     
     // MARK: ------------------------- CycLife
     override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
-//        self.navigationController?.pushViewController(SPColumnDetailViewController(), animated: true)
-        
+        super.viewDidLoad()        
         self.setupSubViews()
     }
     func setupSubViews(){
